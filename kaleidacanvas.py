@@ -2,6 +2,7 @@ from Tkinter import *
 import PIL
 from PIL import Image, ImageDraw
 
+#TODO: save a better resolution picture
 def paint(event):
 	global lastx, lasty
 	global canvas_width, canvas_height
@@ -21,6 +22,7 @@ def paint(event):
 	cv.create_line(opp_lasty, opp_lastx, opp_y, opp_x, fill="black")
 	cv.create_line(opp_lasty, lastx, opp_y, x, fill="black")
 
+	#drawing the identical lines on the PIL image
 	draw.line((lastx, lasty, x, y), fill="black", width=1)
 	draw.line((opp_lastx, lasty, opp_x, y), fill="black", width=1)
 	draw.line((opp_lastx, opp_lasty, opp_x, opp_y), fill="black", width=1)
@@ -50,13 +52,13 @@ def clear():
 master = Tk()
 master.title("Eclipsis")
 
-canvas_width = 500
-canvas_height = 500
+canvas_width = 700
+canvas_height = 700
 
-image_number = 0
+image_number = 3
 
 # constructs new image to save later
-image = PIL.Image.new('RGB', (500, 500), 'white')
+image = PIL.Image.new("RGB", (canvas_width, canvas_height), "white")
 # allows user to draw on this image (above the widget in layers)
 draw = ImageDraw.Draw(image)
 
