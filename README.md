@@ -14,7 +14,7 @@ For more examples, you can check out Images folder.
 ### Libraries used
 Tkinter, Pillow: Image and ImageDraw. The latter was used to help save the Kaleidapiece you made, but a problem that
 I have yet to solve is the quality of the image PIL saves. I am using the mode `RGB`, but I also tried other modes compatible 
-with the file format `.jpg` prescribed on [this page](https://pillow.readthedocs.io/en/stable/handbook/concepts.html#concept-modes), but none of them turned out any more satisfactory. One reason that does not include the fault of Pillow would be the fact that Kaleidacanvas's canvas is only 700x700 pixels, restricting the saved image's quality.
+with the file format `.jpg` prescribed on [this page](https://pillow.readthedocs.io/en/stable/handbook/concepts.html#concept-modes), but none of them turned out any better. One reason (that does not include the fault of Pillow) would be the fact that Kaleidacanvas's canvas is only 700x700 pixels, restricting the saved image's quality.
 
 Overall, I am much more interested by Tkinter's abilities as a GUI, and if I were to improve on the current version of Kaleidacanvas, I would look at different image-saving libraries that would allow for higher quality images.
 
