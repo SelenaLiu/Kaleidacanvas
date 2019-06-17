@@ -2,6 +2,15 @@
 
 This script was a small experimentation with tkinter's canvas, and in general, a GUI for python.
 
+Using the Kaleidacanvas, users may create their own ecliptical (or otherwise) kaleidascope patterns! Some examples are shown below:
+
+![Example1](https://github.com/SelenaLiu/Kaleidacanvas/tree/master/Images/Eclipsis1.jpg)
+![Example2](https://github.com/SelenaLiu/Kaleidacanvas/tree/master/Images/Eclipsis2.jpg)
+![Example3](https://github.com/SelenaLiu/Kaleidacanvas/tree/master/Images/Eclipsis3.jpg)
+
+
+For more examples you can look in the Images folder.
+
 ### Libraries used
 Tkinter, Pillow: Image and ImageDraw. The latter was used to help save the Kaleidapiece you made, but a problem that
 I have yet to solve is the quality of the image PIL saves. I am using the mode `RGB`, but I also tried other modes compatible 
@@ -14,7 +23,7 @@ Some features that I would want to explore with this project is adding a slider 
 
 Also, while I was debugging, I accidentally made a feature that made some wicked-looking kaleidapieces (the name's really catching on) by extending lines from the initial button click. An example is shown below.
 
-![GitHub Logo](/images/logo.png)
+![kaleidapiece](https://github.com/SelenaLiu/Kaleidacanvas/blob/master/Images/Screen%20Shot%202019-06-16%20at%201.10.26%20PM.png)
 
 ### Useful resources
 Some resources that I definitely relied on while learning to use Tkinter and Pillow are listed below:
