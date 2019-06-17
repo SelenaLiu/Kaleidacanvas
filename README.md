@@ -4,9 +4,9 @@ This script was a small experimentation with tkinter's canvas, and in general, a
 
 Using the Kaleidacanvas, users may create their own ecliptical (or otherwise) kaleidascope patterns! Some examples are shown below:
 
-![Example1](https://github.com/SelenaLiu/Kaleidacanvas/tree/master/Images/Eclipsis1.jpg)
-![Example2](https://github.com/SelenaLiu/Kaleidacanvas/tree/master/Images/Eclipsis2.jpg)
-![Example3](https://github.com/SelenaLiu/Kaleidacanvas/tree/master/Images/Eclipsis3.jpg)
+![Example1](https://github.com/SelenaLiu/Kaleidacanvas/blob/master/Images/Eclipsis1.jpg)
+![Example2](https://github.com/SelenaLiu/Kaleidacanvas/blob/master/Images/Eclipsis2.jpg)
+![Example3](https://github.com/SelenaLiu/Kaleidacanvas/blob/master/Images/Eclipsis3.jpg)
 
 
 For more examples you can look in the Images folder.
