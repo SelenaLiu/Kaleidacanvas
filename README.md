@@ -9,7 +9,7 @@ Using the Kaleidacanvas, users may create their own ecliptical (or otherwise) ka
 ![Example3](https://github.com/SelenaLiu/Kaleidacanvas/blob/master/Images/Eclipsis3.jpg)
 
 
-For more examples you can look in the Images folder.
+For more examples, you can check out Images folder.
 
 ### Libraries used
 Tkinter, Pillow: Image and ImageDraw. The latter was used to help save the Kaleidapiece you made, but a problem that
