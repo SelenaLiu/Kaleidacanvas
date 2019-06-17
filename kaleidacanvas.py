@@ -47,7 +47,12 @@ def save():
 	image.save(filename)
 
 def clear():
+	global image, draw
+	global canvas_width, canvas_height
 	cv.delete("all")
+	del draw
+	image = PIL.Image.new("RGB", (canvas_width, canvas_height), "white")
+	draw = ImageDraw.Draw(image)
 
 master = Tk()
 master.title("Eclipsis")
@@ -55,7 +60,7 @@ master.title("Eclipsis")
 canvas_width = 700
 canvas_height = 700
 
-image_number = 3
+image_number = 1
 
 # constructs new image to save later
 image = PIL.Image.new("RGB", (canvas_width, canvas_height), "white")
